@@ -1,0 +1,68 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Your CSS rules here */
+    header nav a{
+        display: none;
+    }
+
+    header #goto #search{
+        display: none;
+    }
+
+    header #goto #other-icons{
+        display: none;
+    }
+
+    header #goto .ri-menu-line{
+        display: initial;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* Your CSS rules here */
+    header nav a{
+        display: none;
+    }
+
+    header #goto #search{
+        display: none;
+    }
+
+    header #goto #other-icons{
+        display: none;
+    }
+
+    header #goto .ri-menu-line{
+        display: initial;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your CSS rules here */
+    header #goto #search{
+        display: none;
+    }
+
+    header #goto #other-icons{
+        display: none;
+    }
+
+    header #goto .ri-menu-line{
+        display: initial;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Your CSS rules here */
+    header h5{
+        display: none;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    /* Your CSS rules here */
+  }  
